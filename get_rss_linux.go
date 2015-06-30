@@ -1,10 +1,10 @@
 package gs
 
 /*
-#cgo LDFLAGS: -L/usr/local/lib -lget_rss -lstdc++
+#cgo LDFLAGS: -L. -lget_rss -lpsapi
 
 #include <stdlib.h>
-#include <get_rss.h>
+#include "get_rss.h"
 */
 import "C"
 
