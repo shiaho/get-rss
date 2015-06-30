@@ -1,7 +1,7 @@
 package gs
 
 /*
-#cgo LDFLAGS: -L. -lget_rss -lpsapi
+#cgo LDFLAGS: -L. -lget_rss_win -lpsapi
 
 #include <stdlib.h>
 #include "get_rss.h"
