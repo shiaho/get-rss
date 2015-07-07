@@ -6,5 +6,5 @@ endif
 
 all:
 	gcc -I. -c get_rss.c
-	ar rvs libget_rss_win.a get_rss.o
+	ar rvs $(LIB_TARGET) get_rss.o
 	rm get_rss.o
